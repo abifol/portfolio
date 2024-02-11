@@ -1,0 +1,132 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --background-color: #0077b5;
+  --border-color: white;
+  --transition: all 2s;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.navbar {
+  width: 100%;
+  height: 9rem;
+}
+
+.container-fluid {
+  background-color: var(--background-color);
+}
+
+.navbar-nav {
+  font-weight: 500;
+}
+.navbar-nav .nav-item {
+  margin-left: 250px;
+}
+
+.navbar-nav .nav-item a {
+  color: white;
+  transition: var(--transition);
+}
+
+.navbar-nav .nav-item a:hover {
+  color: var(--background-color);
+  text-rendering: optimizeLegibility;
+  background-color: var(--border-color);
+}
+
+.heros {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.image-container {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#exp-image img {
+  width: 9rem;
+  opacity: 0.3;
+  transition: var(--transition);
+}
+
+#exp-image img:hover {
+  width: 9rem;
+  opacity: 1;
+}
+
+#stack-image img {
+  padding-top: 200px;
+  width: 9rem;
+  opacity: 0.3;
+  transition: var(--transition);
+}
+
+#stack-image img:hover {
+  width: 9rem;
+  opacity: 1;
+}
+
+.image {
+  width: 25rem;
+  border-radius: 50%;
+
+  border: none;
+  border-color: none;
+  align-self: center;
+  display: flex;
+  margin: auto;
+  opacity: 0.3;
+}
+
+.image-container .image:hover {
+  opacity: 1;
+  text-rendering: optimizeLegibility;
+  border-color: var(--border-color);
+  transition: var(--transition);
+  border-color: var(--border-color);
+  border-width: 3rem;
+  border-style: inset;
+}
+
+h1 {
+  font-size: 4rem;
+  transition: var(--transition);
+}
+
+h1:hover {
+  color: var(--border-color);
+  cursor: progress;
+}
+
+.content {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-family: var(--font-family);
+  font-size: 17px;
+  color: white;
+  text-rendering: optimizeLegibility;
+}
+
+.container .content img {
+  width: 2rem;
+  margin: 5px;
+  opacity: 0.3;
+  transition: var(--transition);
+}
+
+.container .content img:hover {
+  background-color: var(--border-color);
+  opacity: 1;
+}
