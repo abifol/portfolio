@@ -12,6 +12,9 @@ body {
 .navbar {
   width: 100%;
   height: 9rem;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
 }
 
 .container-fluid {
