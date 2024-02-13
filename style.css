@@ -116,7 +116,7 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--border-color);
   transition: var(--transition);
   padding-top: 20px;
