@@ -148,6 +148,7 @@ h3 {
 
 h6 {
   transition: var(--transition);
+  color: var(--border-color);
 }
 
 .content {
@@ -173,5 +174,5 @@ h6 {
 }
 
 marquee {
-  width: 50%;
+  width: 100%;
 }
