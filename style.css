@@ -67,9 +67,14 @@ body {
 }
 
 .image-container {
+  /* padding-top: 10rem; */
   display: inline-block;
   width: 100%;
   text-align: center;
+}
+
+#career {
+  padding-top: 10rem;
 }
 
 #exp-image img {
@@ -99,14 +104,14 @@ body {
 }
 
 .image {
+  padding-top: 5rem;
   width: 20rem;
   border-radius: 50%;
-
   border-color: none;
   align-self: center;
   display: flex;
   margin: auto;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   opacity: 0.5;
   animation: disappear 7s linear 0s infinite alternate;
 }
@@ -120,7 +125,7 @@ h1 {
   color: var(--border-color);
   transition: var(--transition);
   padding-top: 20px;
-  animation: disappear 3s linear 0s infinite alternate;
+  /* animation: disappear 3s linear 0s infinite alternate; */
 }
 
 h1:hover {
