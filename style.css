@@ -39,6 +39,11 @@ body {
 .navbar-nav {
   font-weight: 500;
 }
+
+.navbar-nav .active {
+  color: black !important ;
+}
+
 .navbar-nav .nav-item {
   margin-left: 250px;
 }
