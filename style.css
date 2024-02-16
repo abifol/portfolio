@@ -133,10 +133,21 @@ h1 {
   transition: var(--transition);
   padding-top: 20px;
   /* animation: disappear 3s linear 0s infinite alternate; */
+  text-rendering: optimizeLegibility;
 }
 
 h1:hover {
-  cursor: progress;
+  /* cursor: progress; */
+}
+
+h3 {
+  /* color: var(--border-color); */
+  transition: var(--transition);
+  text-rendering: optimizeLegibility;
+}
+
+h6 {
+  transition: var(--transition);
 }
 
 .content {
