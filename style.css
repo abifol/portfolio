@@ -107,7 +107,9 @@ body {
   padding-top: 5rem;
   width: 20rem;
   border-radius: 50%;
-  border-color: none;
+  border-width: 10rem;
+  border-color: white;
+  border-style: double;
   align-self: center;
   display: flex;
   margin: auto;
