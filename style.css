@@ -38,6 +38,7 @@ body {
 
 .navbar-nav {
   font-weight: 500;
+  font-size: small;
 }
 
 .navbar-nav .active {
@@ -45,7 +46,7 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link {
-  margin: 0px 60px;
+  margin: 0px 70px;
 }
 
 .navbar-nav .nav-item a {
@@ -114,7 +115,7 @@ body {
   padding-top: 10px;
   width: 40rem;
   transition: var(--transition);
-  border-radius: 5%;
+  border-radius: 100%;
 }
 
 #works-image img:hover {
