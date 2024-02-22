@@ -46,7 +46,9 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link {
-  margin: 0px 70px;
+  margin: 0px 60px;
+  text-align: center;
+  width: 100%;
 }
 
 .navbar-nav .nav-item a {
@@ -98,7 +100,7 @@ body {
 }
 
 #stack-image img {
-  padding-top: 200px;
+  padding-top: 100px;
   width: 9rem;
   opacity: 0.3;
   transition: var(--transition);
