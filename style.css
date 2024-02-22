@@ -115,14 +115,14 @@ body {
 
 #works-image img {
   padding-top: 10px;
-  width: 40rem;
+  width: 35rem;
   transition: var(--transition);
-  border-radius: 100%;
+  border-radius: 0%;
 }
 
 #works-image img:hover {
   width: 70rem;
-  border-radius: 2%;
+  border-radius: 0%;
 }
 
 .image {
