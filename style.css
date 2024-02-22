@@ -168,6 +168,10 @@ h6 {
   color: var(--border-color);
 }
 
+span {
+  color: gold;
+}
+
 .content {
   text-align: center;
   width: 100%;
