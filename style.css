@@ -78,6 +78,10 @@ body {
   text-align: center;
 }
 
+#career h3 {
+  color: gold;
+}
+
 .image-container {
   /* padding-top: 10rem; */
   display: inline-block;
