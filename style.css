@@ -118,10 +118,17 @@ body {
 }
 
 #works-image img {
-  padding-top: 10px;
-  width: 35rem;
+  padding-top: 50px;
+  padding-bottom: 5%;
+  width: 60%;
   transition: var(--transition);
   border-radius: 0%;
+}
+
+@media screen and (max-width: 900px) {
+  #works-image img {
+    width: 90%;
+  }
 }
 
 #works-image img:hover {
