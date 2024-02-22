@@ -82,6 +82,10 @@ body {
   color: gold;
 }
 
+#exp-image h3 {
+  color: gold;
+}
+
 .image-container {
   /* padding-top: 10rem; */
   display: inline-block;
