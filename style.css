@@ -51,13 +51,34 @@ body {
   bottom: 0;
 }
 
+.navbar-nav {
+  font-weight: 500;
+  font-size: small;
+}
+
+.navbar-nav .active {
+  color: gold !important ;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: var(--background-color);
+  text-rendering: optimizeLegibility;
+  background-color: var(--border-color);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='gold' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .row {
   margin-top: 5%;
+  transition: var(--transition);
 }
 
 .card {
   margin: auto;
   width: 20rem;
+  transition: var(--transition);
 }
 
 .card:hover {
@@ -101,8 +122,46 @@ a:hover {
 .hero-image img {
 }
 
-.text h1 {
-  font-family: var(--font-family);
-  padding-bottom: -1000px;
-  color: white;
+.container {
+  text-align: center;
+}
+
+.image {
+  padding-top: 10%;
+  width: 20rem;
+  border-radius: 50%;
+  border-width: 0rem;
+  border-color: white;
+  border-style: double;
+  align-self: center;
+  display: flex;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--border-color);
+  transition: var(--transition);
+  padding-top: 5px;
+  /* animation: disappear 3s linear 0s infinite alternate; */
+  text-rendering: optimizeLegibility;
+}
+
+h1:hover {
+  /* cursor: progress; */
+}
+
+h3 {
+  /* color: var(--border-color); */
+  transition: var(--transition);
+  text-rendering: optimizeLegibility;
+}
+
+h6 {
+  transition: var(--transition);
+  color: var(--border-color);
+}
+
+span {
+  color: gold;
 }
