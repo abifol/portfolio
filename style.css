@@ -49,6 +49,7 @@ body {
   overflow: hidden;
   position: fixed;
   bottom: 0;
+  transition: var(--transition);
 }
 
 .navbar-nav {
@@ -127,7 +128,7 @@ a:hover {
 }
 
 .image {
-  padding-top: 10%;
+  padding-top: 5%;
   width: 20rem;
   border-radius: 50%;
   border-width: 0rem;

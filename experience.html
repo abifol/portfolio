@@ -17,7 +17,7 @@
     <div class="row row-cols-1 row-cols-md-2 g-0">
       <div class="col">
         <div class="card">
-          <img style="width: 20rem;" src="./images/ericsson.png" class="card-img-top" alt="...">
+          <img style="width: 20rem;" src="./images/ericsson.png" class="card-img-bottom" alt="...">
           <div class="card-body">
             <h5 class="card-title">DevOps Engineer (2021 - present)</h5>
             <p class="card-text">Collaborate with cross-functional teams to design and implement infrastructure and software solutions that meet business requirements.
@@ -30,7 +30,7 @@ Automate manual processes with Linux and python scripting to provide an optimal 
       </div>
       <div class="col">
         <div class="card">
-          <img style="width: 20rem;" src="./images/wakanow.png" class="card-img-top" alt="...">
+          <img style="width: 20rem;" src="./images/wakanow.png" class="card-img-bottom" alt="...">
           <div class="card-body">
             <h5 class="card-title">Service Delievery/DevOps Engineer (2019 - 2021)</h5>
             <p class="card-text">Managed the organization’s cloud services using the Microsoft Azure cloud platform to ensure all application services are up and running, to prevent business operations downtime.
@@ -45,7 +45,7 @@ Collaborated with developers and operations team to meet daily business needs by
     </div>
         
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
         <button
@@ -108,5 +108,18 @@ Collaborated with developers and operations team to meet daily business needs by
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.bottom = "0";
+        } else {
+          document.getElementById("navbar").style.bottom = "-90px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
   </body>
 </html>
