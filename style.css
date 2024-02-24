@@ -90,10 +90,15 @@ body {
   margin: auto;
   width: 20rem;
   transition: var(--transition);
+  overflow: hidden;
+}
+
+.card img {
+  transition: all 1.5s ease;
 }
 
 .card img:hover {
-  transform: scale(1.6);
+  transform: scale(1.7);
 }
 
 .card-title {
