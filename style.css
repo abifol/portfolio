@@ -3,6 +3,11 @@
   --background-color: #0077b5;
   --border-color: white;
   --transition: all 4s;
+  --color: orange;
+}
+
+* {
+  font-family: var(--font-family);
 }
 
 /* The animation code */
@@ -41,7 +46,7 @@ body {
 }
 
 .content img:hover {
-  background-color: gold;
+  background-color: var(--color);
 }
 .navbar {
   width: 100%;
@@ -58,17 +63,22 @@ body {
 }
 
 .navbar-nav .active {
-  color: rgb(224, 196, 37) !important ;
+  color: var(--color) !important ;
 }
 
 .navbar-nav .nav-item a:hover {
-  color: var(--background-color);
   text-rendering: optimizeLegibility;
-  background-color: var(--border-color);
+  background-color: var(--background-color);
+  color: white;
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='gold' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+  font-family: var(--font-family);
+  font-size: medium;
 }
 
 .row {
@@ -87,7 +97,7 @@ body {
 }
 
 .card-title {
-  color: gold;
+  color: var(--color);
   font-family: var(--font-family);
 }
 

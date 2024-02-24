@@ -109,17 +109,5 @@ Collaborated with developers and operations team to meet daily business needs by
       crossorigin="anonymous"
     ></script>
     <script src="./script.js"></script>
-    <script>
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("navbar").style.bottom = "0";
-        } else {
-          document.getElementById("navbar").style.bottom = "-90px";
-        }
-        prevScrollpos = currentScrollPos;
-      }
-    </script>
   </body>
 </html>
