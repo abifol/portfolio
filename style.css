@@ -2,11 +2,7 @@
   --font-family: "Roboto", sans-serif;
   --background-color: #0077b5;
   --border-color: white;
-  --transition: all 2s;
-}
-
-body {
-  background-color: var(--background-color);
+  --transition: all 4s;
 }
 
 /* The animation code */
@@ -24,175 +20,12 @@ body {
   }
 }
 
-.navbar {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-}
-
-.container-fluid {
+body {
   background-color: var(--background-color);
 }
 
-.navbar-nav {
-  font-weight: 500;
-  font-size: small;
-}
-
-.navbar-nav .active {
-  color: gold !important ;
-}
-
-.navbar-nav .nav-item .nav-link {
-  margin: 0px 80px;
-  text-align: center;
-  width: 100%;
-}
-
-.navbar-nav .nav-item a {
-  color: white;
-  transition: var(--transition);
-}
-
-.navbar-nav .nav-item a:hover {
-  color: var(--background-color);
-  text-rendering: optimizeLegibility;
-  background-color: var(--border-color);
-}
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.heros {
-  width: 100%;
-  position: relative;
-  text-align: center;
-}
-
-.container {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
-#career h3 {
-  color: gold;
-}
-
-#exp-image h3 {
-  color: gold;
-}
-
-.image-container {
-  /* padding-top: 10rem; */
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
-#career {
-  padding-top: 3rem;
-}
-
-#exp-image img {
-  padding-top: 10px;
-  width: 9rem;
-  opacity: 0.3;
-  transition: var(--transition);
-  animation: disappear 2s linear 0s infinite alternate;
-}
-
-#exp-image img:hover {
-  width: 9rem;
-  opacity: 1;
-  animation: 0;
-}
-
-#stack-image img {
-  padding-top: 100px;
-  width: 9rem;
-  opacity: 0.3;
-  transition: var(--transition);
-  animation: disappear 1s linear 0s infinite alternate;
-}
-
-#stack-image img:hover {
-  width: 20rem;
-  opacity: 1;
-  animation: 0;
-}
-
-#works-image img {
-  padding-top: 50px;
-  padding-bottom: 5%;
-  width: 60%;
-  transition: var(--transition);
-  border-radius: 0%;
-}
-
-@media screen and (max-width: 900px) {
-  #works-image img {
-    width: 90%;
-  }
-}
-
-#works-image img:hover {
-  width: 60rem;
-  border-radius: 0%;
-}
-
-.image {
-  padding-top: 1%;
-  width: 20rem;
-  border-radius: 50%;
-  border-width: 0rem;
-  border-color: white;
-  border-style: double;
-  align-self: center;
-  display: flex;
-  margin: auto;
-  animation: disappear 7s linear 0s infinite alternate;
-}
-
-.image-container .image:hover {
-  text-rendering: optimizeLegibility;
-  animation: 0;
-  opacity: 1;
-}
-
-h1 {
-  font-size: 2rem;
-  color: var(--border-color);
-  transition: var(--transition);
-  padding-top: 5px;
-  /* animation: disappear 3s linear 0s infinite alternate; */
-  text-rendering: optimizeLegibility;
-}
-
-h1:hover {
-  /* cursor: progress; */
-}
-
-h3 {
-  /* color: var(--border-color); */
-  transition: var(--transition);
-  text-rendering: optimizeLegibility;
-}
-
-h6 {
-  transition: var(--transition);
-  color: var(--border-color);
-}
-
-span {
-  color: gold;
-}
-
 .content {
-  text-align: center;
+  text-align: end;
   width: 100%;
   margin: auto;
   font-family: var(--font-family);
@@ -201,18 +34,75 @@ span {
   text-rendering: optimizeLegibility;
 }
 
-.container .content img {
+.content img {
   width: 2rem;
   margin: 5px;
-  opacity: 0.3;
   transition: var(--transition);
 }
 
-.container .content img:hover {
-  background-color: var(--border-color);
-  opacity: 1;
+.content img:hover {
+  background-color: gold;
+}
+.navbar {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
 }
 
-marquee {
-  width: 100%;
+.row {
+  margin-top: 10%;
+}
+
+.card {
+  margin: auto;
+  width: 20rem;
+}
+
+.card:hover {
+  /* transform: scale(1.5); */
+}
+
+.card-title {
+  color: gold;
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: var(--transition);
+}
+
+.heros {
+  margin: auto;
+}
+#stack-image img {
+  margin-top: 5%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-color: white;
+  padding-top: 100px;
+  width: 9rem;
+  transition: var(--transition);
+}
+
+.hero-image {
+  text-align: center;
+  height: auto;
+}
+
+.hero-image img {
+}
+
+.text h1 {
+  font-family: var(--font-family);
+  padding-bottom: -1000px;
+  color: white;
 }
