@@ -58,7 +58,7 @@ body {
 }
 
 .navbar-nav .active {
-  color: gold !important ;
+  color: rgb(224, 196, 37) !important ;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -89,6 +89,10 @@ body {
 .card-title {
   color: gold;
   font-family: var(--font-family);
+}
+
+.card-body {
+  background-color: rgb(241, 236, 236);
 }
 
 a {
